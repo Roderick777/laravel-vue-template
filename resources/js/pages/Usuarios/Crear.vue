@@ -9,7 +9,6 @@
         uk-accordion-element( titulo="hola 3" ) 3333 33 3 33333333 3 3333
 
 </template>
-
 <script>
 export default {
     data() {
