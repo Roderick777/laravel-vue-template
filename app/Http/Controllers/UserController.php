@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use \App\User;
 
 class UserController extends Controller
@@ -14,8 +15,8 @@ class UserController extends Controller
 
     function crear(Request $r) {
         return User::create([
-            'name'      => $r->name,
-            'email'     => $r->email,
+            'name'      => $r->nombre,
+            'email'     => $r->correo,
             'password'  => Hash::make($r->password),
         ]);
     }

@@ -3,7 +3,10 @@
         uk-badge usuarios
         div( v-if="usuarios != null" )
             li( v-for="(usuario, index) in usuarios", :key="'usuario'+ index" ) {{ usuario.name }}
-        Crear
+        <i class="uk-icon-button" uk-icon="plus" uk-toggle="target: #crear-usuario"></i>
+
+        uk-drawer( id="crear-usuario" )
+            Crear
 </template>
 
 <script>
