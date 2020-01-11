@@ -1,7 +1,6 @@
 import Home from './pages/Home.vue';
 import Ajustes from './pages/Ajustes.vue';
-import Usuarios from './pages/Usuarios.vue';
-
+import Usuarios from './pages/Usuarios/Usuarios.vue';
 
 export const routes = [
     { path: '/app/', component: Home, name: 'Home' },

@@ -16,7 +16,8 @@ Vue.use(VuePageTransition)
 require('./componentes');
 
 //Configuracion de vue router
-
+import Vuex from 'vuex'
+Vue.use(Vuex);
 import VueRouter from 'vue-router';
 import { routes } from './routes';
 Vue.use(VueRouter);

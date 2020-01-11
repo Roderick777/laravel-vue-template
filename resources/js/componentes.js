@@ -4,3 +4,6 @@ Vue.component('uk-card-title', require('./components/general/UkCardTitle.vue').d
 Vue.component('uk-menu', require('./components/general/UkMenu.vue').default);
 Vue.component('uk-drawer', require('./components/general/UkOffcanvas.vue').default);
 Vue.component('uk-badge', require('./components/general/UkBadge.vue').default);
+
+Vue.component('uk-accordion', require('./components/general/UkAccordion.vue').default);
+Vue.component('uk-accordion-element', require('./components/general/UkAccordionElement.vue').default);
