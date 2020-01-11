@@ -1,3 +1,33 @@
+<h1>Componentes Semanticos</h1>
+
+<h3>Acordeón</h3>
+<p></p>
+<p>Ejemplo de acordeón basado en <b>pug</b>
+    <code>
+    <uk-accordion>
+        <uk-accordion-element titulo="hola 1"> 
+            1111 
+        </uk-accordion-element>
+        <uk-accordion-element titulo="hola 2"> 
+            2222 
+        </uk-accordion-element>
+        <uk-accordion-element titulo="hola 3">
+            3333 
+        </uk-accordion-element>
+    </uk-accordion>
+    </code>
+</p>
+<p>Ejemplo de acordeón basado en <b>pug</b>
+    <code>
+    uk-accordion
+        uk-accordion-element( titulo="hola" ) 111 11 1 1111111 111 111
+        uk-accordion-element( titulo="hola 2" ) 222222 2 22 2222 2 222
+        uk-accordion-element( titulo="hola 3" ) 3333 33 3 33333333 3 3333
+    </code>
+</p>
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
